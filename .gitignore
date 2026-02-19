@@ -1,0 +1,112 @@
+# ===== Dependencies =====
+node_modules/
+.npm/
+
+# ===== Build outputs =====
+dist/
+.next/
+.vercel/
+build/
+out/
+.turbo/
+
+# ===== Environment =====
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# ===== Logs =====
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ===== OS =====
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ===== IDE =====
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.docstates
+
+# ===== TypeScript =====
+*.tsbuildinfo
+
+# ===== Coverage =====
+coverage/
+.nyc_output/
+lcov.info
+
+# ===== Testing =====
+.playwright/
+playwright-report/
+test-results/
+
+# ===== Docker =====
+.docker/
+
+# ===== Prisma =====
+*.db
+*.db-journal
+
+# ===== C# / .NET =====
+*.user
+*.suo
+[Oo]bj/
+[Bb]in/
+*.nupkg
+*.snupkg
+.vs/
+*.DotSettings.user
+[Dd]ebug/
+[Rr]elease/
+[Xx]64/
+[Xx]86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Ll]og/
+[Ll]ogs/
+TestResults/
+BenchmarkDotNet.Artifacts/
+
+# ===== C++ =====
+*.obj
+*.pch
+*.pdb
+*.idb
+Debug/
+Release/
+x64/
+x86/
+ipch/
+*.aps
+*.ncb
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+
+# ===== Temp / Uploads =====
+uploads/
+tmp/
+*.sql.gz
+*.bak
+
+# ===== Secrets / Keys =====
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
